@@ -3,11 +3,6 @@ html {
     background-color: rgb(247, 247, 248);
 }
 
-.Path_152, .Path_153 {
-    visibility: visible;
-}
-
-
 header {
     background-color: transparent;
     display: flex; 
@@ -24,10 +19,6 @@ header {
     margin: auto;
 }
 
-#Group_17 {
-    height: 70px;
-    padding: auto;
-}
 .headernav {
     margin: 40px;
     font-size: 18px;
@@ -120,12 +111,12 @@ address {
 /*************************** FONT ***************************/
 
 @font-face {
-    font-family: 'Spline Sans', sans-serif;
+    font-family: 'Spline Sans';
     src: url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;400;500;600;700&display=swap');
 }
 
 html {
-    font-family: 'Spline Sans', sans-serif;
+    font-family: 'Spline Sans';
 }
 
 .headernav {

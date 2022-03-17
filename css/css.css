@@ -1,16 +1,16 @@
 /*************************** UNIVERSAL STYLING ***************************/
 html {
-    background-color: rgb(247, 247, 248);
+    background-color: rgb(247, 247, 248); /* throughout the entire site, the background will be this colour*/
 }
 
 header {
-    background-color: transparent;
+    background-color: transparent; 
     display: flex; 
     align-items: center;
     justify-content: center;
 }
 
-.headerul {
+.headerul { /* flexbox is used to display the header navigation items (which are an image and two text links)*/
     display: flex; 
     align-items: center;
     justify-content: center;
@@ -90,7 +90,7 @@ footer {
     padding-bottom: 15px;
 }
 
-.footernav a:link, .footernav a:visited, .footernav a:hover, .footernav a:active {
+.footernav a:link, .footernav a:visited, .footernav a:hover, .footernav a:active { /* in all active states for the footer site navigation, i want the text styled to be white (versus the nav in the header, which is black)*/
     text-decoration: none;
     color: white;
     font-size: 12px;
@@ -110,16 +110,16 @@ address {
 
 /*************************** FONT ***************************/
 
-@font-face {
+@font-face { /* the main font used was sourced through google and placed here, using two components - specifying the font family and the source of the actual font*/
     font-family: 'Spline Sans';
     src: url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;400;500;600;700&display=swap');
 }
 
-html {
+html { /* this code indicates that i want this font to be used throughout the entire html*/
     font-family: 'Spline Sans';
 }
 
-.headernav {
+.headernav { /* in the header nav class, i specify that i want the font more bold*/
     font-weight: 600;
 }
 
@@ -133,9 +133,9 @@ h3 {
 }
 /*************************** INDEX - LANDING PAGE ***************************/
 .hero {
-    background-image: url("../images/homebg.png");
+    background-image: url("../images/homebg.png"); /* this is the hero image source, which does not get coded in the html*/
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; /* the height of the image is shorter than it is wide, so i need to specify that i only want it displayed once, where the default is to repeat it to fit the section*/
     background-size: cover;
     position: relative;
 }
@@ -150,9 +150,9 @@ h3 {
 /***************************  ABOUT PAGE ****************************/
 
 .aboutheading {
-   display: grid;
+   display: grid; 
    align-items: center;
-   justify-content: center;
+   justify-content: center; /* this heading will be in the center of the page no matter what */
    margin: auto;
    height: 300px;
 }
@@ -173,16 +173,16 @@ h3 {
 /*************************** CONTACT PAGE ****************************/
 
 .contactform {
-    display: grid;
+    display: grid; /* i used grind to display all the contact form input items, so they are stacked on top of each other */
     align-items: center;
     justify-content: center;
     margin-bottom: 50px;
 }
 
-input[type=text] {
+input[type=text] { /* this targets styling based on input, so in this case all the text boxes*/
     padding: 10px;
-    background-color: #e2e2e2;
-    border: 1px solid rgb(128, 128, 128); /* Gray border */
+    background-color: #e2e2e2; /* this setss the background colour for the input rectangles ONLY*/
+    border: 1px solid rgb(128, 128, 128); 
     border-radius: 2px; 
     box-sizing: border-box; 
     margin-top: 5px; 
@@ -204,7 +204,7 @@ textarea {
 input[type=submit] {
     width: 110px;
     height: 50px;
-    font-weight: bold;
+    font-weight: bold; /* by default the button has a regular font weight, so i wanted to specify that it should be bold*/
     font-size: 16px;
     margin-top: 10px;
 }

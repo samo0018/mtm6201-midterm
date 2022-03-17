@@ -1,3 +1,244 @@
-body {
-    background-color: blanchedalmond;
+/*************************** UNIVERSAL STYLING ***************************/
+html {
+    background-color: rgb(247, 247, 248);
 }
+
+.Path_152, .Path_153 {
+    visibility: visible;
+}
+
+
+header {
+    background-color: transparent;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.headerul {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    padding: 0px;
+    margin: auto;
+}
+
+#Group_17 {
+    height: 70px;
+    padding: auto;
+}
+.headernav {
+    margin: 40px;
+    font-size: 18px;
+    background-color: transparent;
+}
+
+li {
+    list-style-type: none;
+}
+
+.headernav a:link, .headernav a:visited, .headernav a:hover, .headernav a:active {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    color: #FFFFFF;
+    background-color: #474747;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 35px 10px 8px 10px;
+}
+
+.footerul {
+    padding: 20px;
+    padding-left: 30px;
+    margin: 10px;
+    flex: 25%;
+    order: 1;
+}
+
+.footerlogo {
+    padding: 20px;
+    margin: 10px;
+    flex: 38%;
+    text-align: right;
+    order: 2;
+}
+
+.footeraddress1 {
+    padding: 30px;
+    margin: 10px;
+    flex: 45%;
+    align-items: center;
+    order: 3;
+}
+
+
+.copyright {
+    padding: 30px;
+    margin: 10px;
+    padding-top: 70px;
+    flex: 1%;
+    order: 4;
+}
+
+.socials {
+    padding: 30px;
+    margin: 10px;
+    flex: 25%;
+    text-align: right;
+    order: 5;
+}
+
+.footernav {
+    padding-bottom: 15px;
+}
+
+.footernav a:link, .footernav a:visited, .footernav a:hover, .footernav a:active {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+address {
+    font-style: normal;
+}
+
+.notbold {
+    font-weight: normal;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/*************************** FONT ***************************/
+
+@font-face {
+    font-family: 'Spline Sans', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;400;500;600;700&display=swap');
+}
+
+html {
+    font-family: 'Spline Sans', sans-serif;
+}
+
+.headernav {
+    font-weight: 600;
+}
+
+footer {
+    font-weight: 300;
+    font-size: 12px;
+}
+
+h3 {
+    font-weight: 300;
+}
+/*************************** INDEX - LANDING PAGE ***************************/
+.hero {
+    background-image: url("../images/homebg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.bannerlogo {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 800px;
+}
+
+/***************************  ABOUT PAGE ****************************/
+
+.aboutheading {
+   display: grid;
+   align-items: center;
+   justify-content: center;
+   margin: auto;
+   height: 300px;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 100px;
+}
+
+.abouttext {
+    margin-left: 5%;
+    font-size: 16px;
+}
+/*************************** CONTACT PAGE ****************************/
+
+.contactform {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+input[type=text] {
+    padding: 10px;
+    background-color: #e2e2e2;
+    border: 1px solid rgb(128, 128, 128); /* Gray border */
+    border-radius: 2px; 
+    box-sizing: border-box; 
+    margin-top: 5px; 
+    margin-bottom: 10px; 
+    width: 600px;
+  }
+
+textarea {
+    padding: 10px;
+    background-color: #e2e2e2;
+    border: 1px solid rgb(128, 128, 128);
+    border-radius: 2px; 
+    box-sizing: border-box; 
+    margin-top: 5px; 
+    margin-bottom: 10px; 
+    width: 600px;
+}
+
+input[type=submit] {
+    width: 110px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.contactheading {
+     display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 300px;
+}
+
+.googlemaps {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.vancouveraddress {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
